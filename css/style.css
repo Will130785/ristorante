@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Merienda", cursive; }
+
+.header {
+  background-image: url("../../resources/images/slider1.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 80rem;
+  position: relative; }
+  .header .navbar .navbar-brand {
+    padding: 1rem 1.5rem;
+    font-size: 1.7rem; }
+  .header .navbar-light .navbar-nav {
+    font-size: 1.6rem; }
+    .header .navbar-light .navbar-nav .nav-link {
+      padding: 0 2rem; }
+  .header__logo {
+    height: 5rem;
+    margin-right: 1rem; }
+  .header__nav--language img {
+    height: 2rem; }
+  .header__title {
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 50%; }
+    .header__title h1 {
+      transform: translate(-50%);
+      font-weight: bold;
+      font-size: 3.5rem; }
+
+h2 {
+  font-size: 3.5rem;
+  padding-bottom: 3rem; }
+
+h3 {
+  font-size: 3rem; }
+
+.lang a {
+  display: inline-block; }
+
+.restaurant {
+  padding: 8rem 12rem; }
+  .restaurant__location h4, .restaurant__cuisine h4 {
+    font-size: 2.8rem; }
+  .restaurant__location p, .restaurant__cuisine p {
+    font-size: 1.6rem;
+    padding-bottom: 2rem; }
+  .restaurant img {
+    width: 100%; }
+
+.menu {
+  padding: 0 12rem; }
+  .menu__card h5 {
+    font-size: 2.4rem; }
+  .menu__card p {
+    font-size: 1.6rem;
+    border-bottom: 0.1rem solid gray;
+    padding: 1.5rem 2.5rem; }
+  .menu__card img {
+    height: 25rem; }
+
+.reservation {
+  background-image: linear-gradient(to right bottom, rgba(255, 253, 253, 0.582), rgba(255, 255, 255, 0.342)), url("../resources/images/reserve.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 70rem; }
+  .reservation__container {
+    padding: 8rem 12rem; }
+  .reservation__timetable {
+    position: relative;
+    top: 20rem; }
+  .reservation__timings {
+    position: relative;
+    top: 25rem; }
+
+.res-form {
+  padding: 0 12rem; }

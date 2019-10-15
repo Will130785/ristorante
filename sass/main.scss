@@ -1,0 +1,93 @@
+@import "base/base";
+@import "base/typography";
+
+@import "components/navbar";
+
+@import "layout/header";
+
+h2 {
+    font-size: 3.5rem;
+    padding-bottom: 3rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.lang {
+
+    a{
+    display: inline-block;
+    }
+}
+
+.restaurant {
+    padding: 8rem 12rem;
+
+    &__location,
+    &__cuisine {
+
+        h4 {
+            font-size: 2.8rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+            padding-bottom: 2rem;
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+
+.menu {
+    padding: 0 12rem;
+
+    &__card {
+
+        h5 {
+            font-size: 2.4rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+            border-bottom: 0.1rem solid gray;
+            padding: 1.5rem 2.5rem;
+        }
+
+        img {
+            height: 25rem;
+        }
+    }
+}
+
+.reservation {
+    background-image: linear-gradient(to right bottom,
+                     rgba(255, 253, 253, 0.582),
+                     rgba(255, 255, 255, 0.342)),
+                      url("../resources/images/reserve.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 70rem;
+
+    &__container {
+        padding: 8rem 12rem;
+    }
+
+    &__timetable {
+        position: relative;
+        top: 20rem;
+    }
+
+    &__timings {
+        position: relative;
+        top: 25rem;
+    }
+}
+
+.res-form {
+    padding: 0 12rem;
+}
