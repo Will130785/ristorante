@@ -44,6 +44,9 @@ h2 {
 h3 {
   font-size: 3rem; }
 
+p {
+  font-size: 1.6rem; }
+
 .lang a {
   display: inline-block; }
 
@@ -52,7 +55,6 @@ h3 {
   .restaurant__location h4, .restaurant__cuisine h4 {
     font-size: 2.8rem; }
   .restaurant__location p, .restaurant__cuisine p {
-    font-size: 1.6rem;
     padding-bottom: 2rem; }
   .restaurant img {
     width: 100%; }
@@ -62,7 +64,6 @@ h3 {
   .menu__card h5 {
     font-size: 2.4rem; }
   .menu__card p {
-    font-size: 1.6rem;
     border-bottom: 0.1rem solid gray;
     padding: 1.5rem 2.5rem; }
   .menu__card img {
@@ -84,3 +85,13 @@ h3 {
 
 .res-form {
   padding: 0 12rem; }
+
+.location {
+  padding: 8rem 12rem; }
+  .location__content img {
+    width: 100%; }
+
+.footer {
+  padding: 0 12rem; }
+  .footer__content i {
+    font-size: 4rem; }
